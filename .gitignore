@@ -1,0 +1,33 @@
+# Python 的 bytecode 檔案
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest 的快取資料夾
+.pytest_cache/
+
+# 虛擬環境資料夾
+venv/
+
+# instance 資料夾（通常存放配置檔案或其他機密資料）
+instance/
+
+# 環境變數設定檔
+.env
+.env.example
+
+# Docker 設定檔
+docker-compose.yml
+Dockerfile
+
+# 臨時的測試檔案（如 logs 等）
+*.log
+
+# IDE 或編輯器設定檔
+.vscode/
+.idea/
+*.swp
+
+# 其他可能的臨時檔案
+*.bak
+*.tmp
